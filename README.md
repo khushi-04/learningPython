@@ -2,6 +2,7 @@
 Self-learning Python with small projects
 
 Project 1: Sudoku Game
+
 What I'm exploring:
 * lists
         - 2D Arrays
