@@ -1,0 +1,72 @@
+variables and data types
+    -name the variable and assign it with the type of variable you want it to be
+    - to add a variable in a print statement, end quotes + variable_name
+
+types of variables
+    - strings ("")
+    - int (1,2,3,4...)
+    - float (1.2,3.5...)
+    - boolean (false,true)
+
+strings
+    - \n inserts a new line 
+    - \" inserts a quotation mark
+    - \ will print a backslash
+    - concatnation is connecting two separate strings
+    functions
+        - .lower() / .upper() : converts to lowercase/uppercase
+        - .islower() / .isupper() : returns boolean of whether the string is lower/upper
+        - len() : returns how many characters are in the string
+        - [index] : returns characters at the given index
+        - .index(char) : returns the index of the given char
+        - .replace(original_string, new_string) : replaces first string with the string one
+numbers
+    - % : mod return remainder
+    - str(num): turns num into a string
+    math functions
+        - abs(num): returns absolute value of number
+        - pow(num,power): does num^power
+        - max(num1,num2)/min(num1,num2): returns bigger/smaller number
+        - round(num): returns rounded number
+    from math import *
+        - floor(num): always rounds down
+        - ceil(num): always rounds up
+        - sqrt(num): returns square root of num
+inputs from user
+    - store_input = input("Prompt")
+    - automatically makes them strings, use int() or float() to change data type
+lists
+    - name = [values,values,values]
+    - can hold strings, booleans, ints, and they can all mix
+    - can print the whole list by saying print(list_name)
+    - print individual items by using the indexes (print(list_name[index]))
+    - can also access back of list using negatives (first element at back of list is -1)
+    functions 
+        - [index:] prints everything from index to the end
+        - [index1;index2] prints everything from index1 to everything except index2
+        - change value by using list[index] = new_value
+        - list1.extend(list2) adds list2 to the end of list1
+        - list.append(new_var) adds another item to the end of the list
+        - list.insert(index, new_var) adds new var at index and moves everything down one
+        - list.remove(var) removes var from the list
+        - list.clear() returns empty list
+        - list.pop() removes last values in the list
+        - list.index(var) : returns index of var, returns error if it isn't in the list
+        - list.count(var) : returns how many times var appears in list
+        - list.sort() : sorts list in alphabetical/numerical order
+        - list.reverse() : reverses order of list
+        - new_list = list.copy() copies list into the new_list
+tuples
+    - similar to lists, but it's a data structure
+    - coordinates = (num1,num2)
+    - inmutable : it cannot be changed once it is created
+    - same way to print elements as lists
+    difference between lists and tuples
+        - use tuple to store data that will never change
+        - can have a list of tuples
+functions
+    - def function_name():
+    - to call it, do function_name()
+    - can add parameters in functions 
+    return statement:
+        - returns some type of value from a function

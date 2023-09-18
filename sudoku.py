@@ -29,11 +29,11 @@ def solution():
     box2 = np.array(box2)
     for i in range(0,len(box2)):
         num = randint(1,9)
-        while is_it_there(box2,num) == True or num in box1[trackindex,:]:
+        while num in box2 or num in box1[trackindex,:]:
             num = randint(1,9)
         if i == 2 or i == 5:
             trackindex+=1
-        box2[i] = num
+        # box2[i] = num
     print(box2)
     
     box2 = box2.reshape((3,3))
