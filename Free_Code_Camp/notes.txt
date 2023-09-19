@@ -70,3 +70,54 @@ functions
     - can add parameters in functions 
     return statement:
         - returns some type of value from a function
+if statements
+    - if <statement>:
+    - elif <statement>:
+    - else:
+    - "or" is used for checking whether one or both values is true
+    - "and" is used for checking whether both are true (fails if one is false)
+    comparison operators
+        - can use <, >, <=, >=, !=, and == to compare numbers and strings and put them in if statements
+dictionaries:
+    - special structure to store information in key value pairs
+    - use curly brackets (name = { })
+    - all keys (left side) has to be unique
+    - to access, call the name of the dictionary and put key in square brackets OR use .get(key) function (get gives an error when incorrect key, can add another parameter that prints when invalid)
+while loops:
+    - need a counter
+for loops:
+    - helpful to loop through certain data, like strings, lists, arrays
+    - can use : for index in range(), adding one argument starts it at 0 until one before the number, two arguments will start with the first number and got until one before the second one
+exponents:
+    - x**power (use two multiplication signs)
+2d lists
+    - a list of lists
+    - to access an individual element, use two square brackets (list[row][column])
+    nested for loops 
+        - for loop in a for loop to go through the 2d lists 
+        - for row in list:
+            for column in row:
+                print(column)
+comments
+    - can use #
+    - can also use ''' and ''' 
+errors
+    - try execept blocks
+    - try: 
+        holds code
+    - except <type of error>:
+        print("Invalid...")
+    - except <type of error> as err:
+        print(err) will print the type of error
+    - basically if there's an error, it wont just crash the program
+reading from files
+    - new_file = open(file_name, mode) opens file, choose mode
+        - "r" read file
+        - "w" change,write in file
+        - "a" adds information into the file, not change
+        - "r+" read and write, basically everything
+    - new_file.close() closes file
+    - file.readable() checks if file is set to read
+    - file.readline() reads the first line of code (if you keep calling this, it will iterate over the lines)
+    - file.readlines() puts lines into a list, use [] to access certain lines
+    - for val in file.readlines() can be used to loop through all the lines
